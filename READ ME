@@ -1,0 +1,41 @@
+# AI Guru 30-Day Sprint
+
+![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+Public log of my 30-day AI practice and projects. Goal: build visible skills, ship small AI tools, and document the journey.
+
+---
+
+## 🗂 Contents
+- `day1_hello_ai_guru.ipynb` — sanity check notebook (env + kernel OK)
+
+---
+
+## ✅ Progress (rolling)
+- [x] **Day 1:** Hello AI Guru + repo setup
+- [ ] **Day 2:** Python basics (variables, loops, functions)
+- [ ] **Day 3:** pandas & numpy intro
+- [ ] **Day 4:** Data cleaning with pandas
+- [ ] **Day 5:** matplotlib charts (line, bar, scatter)
+- [ ] **Day 6:** First regression (scikit-learn)
+- [ ] **Day 7:** Mini-Project #1 — House Price Predictor
+- [ ] **Week 2:** ML core (classification, metrics, k-means) → Mini-Project #2: Spam Detector
+- [ ] **Week 3:** First neural net (MNIST) + writeup
+- [ ] **Week 4:** NLP + Capstone — Product Description Generator (deploy)
+
+---
+
+## 🚀 Getting Started (local)
+```bash
+# Create & activate venv (Windows)
+py -m venv .venv
+.\.venv\Scripts\activate
+
+# Install core libs
+py -m pip install --upgrade pip
+py -m pip install notebook pandas numpy matplotlib scikit-learn
+
+# Launch Jupyter
+py -m notebook
